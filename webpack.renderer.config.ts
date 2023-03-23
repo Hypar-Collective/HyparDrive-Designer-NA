@@ -1,3 +1,5 @@
+import path from "path";
+
 import type { Configuration } from 'webpack';
 
 import { rules } from './webpack.rules';
@@ -14,6 +16,11 @@ export const rendererConfig: Configuration = {
   },
   plugins,
   resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"),
+      "@components": path.resolve(__dirname, "src/renderer/components"),
+      "@styling": path.resolve(__dirname, "src/renderer/styling")
+    },
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css'],
   },
 };

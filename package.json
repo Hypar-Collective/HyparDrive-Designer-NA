@@ -1,8 +1,8 @@
 {
   "name": "hypardrive-designer",
-  "productName": "hypardrive-designer",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "productName": "HyparDrive Designer",
+  "version": "0.1.0-alpha",
+  "description": "3D installation and animation creation software for HyparCollective installations",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
@@ -13,8 +13,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "ScrambledFox",
-    "email": "github@jorislodewijks.nl"
+    "name": "HyparCollective",
+    "email": "info@HyparCollective.nl"
   },
   "license": "MIT",
   "devDependencies": {
@@ -26,23 +26,28 @@
     "@electron-forge/plugin-webpack": "^6.0.5",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "@vercel/webpack-asset-relocator-loader": "1.7.3",
     "css-loader": "^6.0.0",
     "electron": "23.2.0",
     "eslint": "^8.0.1",
-    "eslint-plugin-import": "^2.25.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
     "fork-ts-checker-webpack-plugin": "^7.2.13",
     "node-loader": "^2.0.0",
     "style-loader": "^3.0.0",
     "ts-loader": "^9.2.2",
     "ts-node": "^10.0.0",
+    "tsconfig-paths-webpack-plugin": "^4.0.1",
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "allotment": "^1.18.1",
     "electron-squirrel-startup": "^1.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.9"
   }
 }
