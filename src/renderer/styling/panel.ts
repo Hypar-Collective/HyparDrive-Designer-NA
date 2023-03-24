@@ -27,6 +27,7 @@ export const PanelWrapper = styled.div`
 `;
 
 export const CenteredText = styled.h1`
+    height: 100%;
     width: 100%;
     text-align: center;
 

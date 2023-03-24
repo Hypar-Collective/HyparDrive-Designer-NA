@@ -12,13 +12,14 @@ import ComponentView from "@components/components/componentview";
 import InstallationVisualiser from "@components/visualiser/installationvisualiser";
 import PropertyViewer from "@components/properties/propertyviewer";
 import AnimationEditor from "@components/animations/animationeditor";
+import PreferenceView from "./components/preferences/preferenceview";
 
 const App = () => {
   return (
     <React.StrictMode>
       <Theme>
         <AppWrapper>
-          <Allotment vertical defaultSizes={[70, 30]}>
+          {/* <Allotment vertical defaultSizes={[70, 30]}>
             <Allotment.Pane minSize={200} snap>
               <Allotment defaultSizes={[20, 60, 20]}>
                 <Allotment.Pane minSize={200} snap>
@@ -35,7 +36,8 @@ const App = () => {
             <Allotment.Pane minSize={200} snap>
               <AnimationEditor />
             </Allotment.Pane>
-          </Allotment>
+          </Allotment> */}
+          <PreferenceView />
         </AppWrapper>
       </Theme>
     </React.StrictMode>
