@@ -3,7 +3,7 @@ import { CenteredText, PanelWrapper } from "@styling/panel";
 
 export default function PropertyViewer() {
   return (
-    <PanelWrapper>
+    <PanelWrapper type="panel">
       <CenteredText>Property Viewer</CenteredText>
     </PanelWrapper>
   );

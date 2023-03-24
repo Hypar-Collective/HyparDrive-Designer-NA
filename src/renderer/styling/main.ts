@@ -7,7 +7,8 @@ export const AppWrapper = styled.div`
   height: 100vh;
 
   color: ${ThemeStyle.colors.text};
-  font-family: "barlow";
+  font-family: ${ThemeStyle.fonts.default};
+  font-size: ${ThemeStyle.fontSizes.small};
   
   background: ${ThemeStyle.colors.background};
 `;

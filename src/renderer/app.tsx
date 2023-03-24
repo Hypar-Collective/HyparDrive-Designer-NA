@@ -18,10 +18,10 @@ const App = () => {
     <React.StrictMode>
       <Theme>
         <AppWrapper>
-          <Allotment vertical defaultSizes={[7, 3]}>
-            <Allotment.Pane minSize={400} snap>
-              <Allotment defaultSizes={[2, 6, 2]}>
-                <Allotment.Pane minSize={400} snap>
+          <Allotment vertical defaultSizes={[70, 30]}>
+            <Allotment.Pane minSize={200} snap>
+              <Allotment defaultSizes={[20, 60, 20]}>
+                <Allotment.Pane minSize={200} snap>
                   <ComponentView />
                 </Allotment.Pane>
                 <Allotment.Pane minSize={500}>

@@ -3,7 +3,7 @@ import { CenteredText, PanelWrapper } from "@styling/panel";
 
 export default function InstallationVisualiser() {
   return (
-    <PanelWrapper>
+    <PanelWrapper type="background">
       <CenteredText>Installation Visualiser</CenteredText>
     </PanelWrapper>
   );
